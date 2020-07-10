@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200707210952_FirstName_LastName_Email.cs" />
+    <Compile Remove="Migrations\20200707210952_FirstName_LastName_Email.Designer.cs" />
+    <Compile Remove="Migrations\20200707211345_FirstName_LastName_Email.cs" />
+    <Compile Remove="Migrations\20200707211345_FirstName_LastName_Email.Designer.cs" />
+    <Compile Remove="Migrations\20200707212321_Adding-Name-UserType.cs" />
+    <Compile Remove="Migrations\20200707212321_Adding-Name-UserType.Designer.cs" />
+    <Compile Remove="Migrations\20200707212352_Adding_Name_UserType.cs" />
+    <Compile Remove="Migrations\20200707212352_Adding_Name_UserType.Designer.cs" />
+    <Compile Remove="Migrations\20200707212445_Adding_Name_UserType.cs" />
+    <Compile Remove="Migrations\20200707212445_Adding_Name_UserType.Designer.cs" />
+    <Compile Remove="Migrations\20200707212656_=IgnoreChanges.cs" />
+    <Compile Remove="Migrations\20200707212656_=IgnoreChanges.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityServer4.EntityFramework" Version="4.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CS.Core\CS.Core.csproj" />
+  </ItemGroup>
+
+</Project>

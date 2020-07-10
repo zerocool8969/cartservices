@@ -1,0 +1,8 @@
+﻿namespace CS.API.ViewModels
+{
+    public class ResponseDto
+    {
+        public int Code { get; set; }
+        public string Message { get; set; }
+    }
+}
